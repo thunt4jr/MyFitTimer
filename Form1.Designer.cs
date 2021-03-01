@@ -76,6 +76,7 @@ namespace MyFitTimer
             // 
             // PanelElapsed
             // 
+            this.PanelElapsed.AutoScroll = true;
             this.PanelElapsed.Location = new System.Drawing.Point(90, 77);
             this.PanelElapsed.Name = "PanelElapsed";
             this.PanelElapsed.Size = new System.Drawing.Size(155, 150);

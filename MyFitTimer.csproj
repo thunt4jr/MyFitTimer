@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="elapsed.cs">
+    <Compile Include="Elap.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="elapsed.Designer.cs">
-      <DependentUpon>elapsed.cs</DependentUpon>
+    <Compile Include="Elap.Designer.cs">
+      <DependentUpon>Elap.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -60,8 +60,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="elapsed.resx">
-      <DependentUpon>elapsed.cs</DependentUpon>
+    <EmbeddedResource Include="Elap.resx">
+      <DependentUpon>Elap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
