@@ -3,7 +3,8 @@ using System.Diagnostics;
 using System.Threading;
 using System.Windows.Forms;
 using System.IO;
-using System.Text; 
+using System.Text;
+using System.Data;
 
 namespace MyFitTimer
 {
@@ -16,6 +17,7 @@ namespace MyFitTimer
         }
 
         Stopwatch tm = new Stopwatch();
+        
 
         private void ButtonStart_Click(object sender, EventArgs e)
         {
@@ -40,18 +42,22 @@ namespace MyFitTimer
 
         private void ButtonLap_Click(object sender, EventArgs e)
         {
+            string path = @"C:\Users\thunt\source\repos\MyFitTimer\database.txt";
             if (ButtonLap.Text == "Lap")
             {
-                string path = @"data.txt";
-
                 Elap ls = new Elap();
                 ls.LabelElapsed.Text = LabelTimer.Text;
                 PanelElapsed.Controls.Add(ls);
-                string createText = "Elapsed: " + LabelTimer.Text;
-                File.WriteAllText(path, createText);
 
-                string AppendText = "Elapsed: " + LabelTimer.Text;
-                File.AppendAllText(path, AppendText);
+                using(StreamWriter sw = File.CreateText(path))
+                {
+                    sw.WriteLine(LabelTimer.Text);
+                }
+
+                using(StreamWriter sw = File.AppendText(path))
+                {
+                    sw.WriteLine(LabelTimer.Text);
+                }
             }
             else
             {
@@ -67,6 +73,9 @@ namespace MyFitTimer
 
             LabelTimer.Text = string.Format("{0:00}:{1:00}:{2:00}:{3:00}", tm.Elapsed.Hours, tm.Elapsed.Minutes, tm.Elapsed.Seconds, tm.Elapsed.Milliseconds / 10);
         }
+
+       
+
 
     }
 }

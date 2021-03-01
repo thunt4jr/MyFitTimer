@@ -1,0 +1,11 @@
+C:\Users\thunt\source\repos\MyFitTimer\bin\Debug\MyFitTimer.exe.config
+C:\Users\thunt\source\repos\MyFitTimer\bin\Debug\MyFitTimer.exe
+C:\Users\thunt\source\repos\MyFitTimer\bin\Debug\MyFitTimer.pdb
+C:\Users\thunt\source\repos\MyFitTimer\obj\Debug\MyFitTimer.csprojAssemblyReference.cache
+C:\Users\thunt\source\repos\MyFitTimer\obj\Debug\MyFitTimer.Elap.resources
+C:\Users\thunt\source\repos\MyFitTimer\obj\Debug\MyFitTimer.MyFitTimer.resources
+C:\Users\thunt\source\repos\MyFitTimer\obj\Debug\MyFitTimer.Properties.Resources.resources
+C:\Users\thunt\source\repos\MyFitTimer\obj\Debug\MyFitTimer.csproj.GenerateResource.cache
+C:\Users\thunt\source\repos\MyFitTimer\obj\Debug\MyFitTimer.csproj.CoreCompileInputs.cache
+C:\Users\thunt\source\repos\MyFitTimer\obj\Debug\MyFitTimer.exe
+C:\Users\thunt\source\repos\MyFitTimer\obj\Debug\MyFitTimer.pdb
