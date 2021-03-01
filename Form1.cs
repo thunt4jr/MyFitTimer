@@ -49,15 +49,13 @@ namespace MyFitTimer
                 ls.LabelElapsed.Text = LabelTimer.Text;
                 PanelElapsed.Controls.Add(ls);
 
-                using(StreamWriter sw = File.CreateText(path))
-                {
-                    sw.WriteLine(LabelTimer.Text);
-                }
-
                 using(StreamWriter sw = File.AppendText(path))
                 {
-                    sw.WriteLine(LabelTimer.Text);
+                    sw.WriteLine("Elapsed {0}:", LabelTimer.Text);
                 }
+
+
+
             }
             else
             {
