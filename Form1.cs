@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.Threading;
 using System.Windows.Forms;
 using System.IO;
+using System.Text; 
 
 namespace MyFitTimer
 {
@@ -41,9 +42,16 @@ namespace MyFitTimer
         {
             if (ButtonLap.Text == "Lap")
             {
+                string path = @"data.txt";
+
                 Elap ls = new Elap();
                 ls.LabelElapsed.Text = LabelTimer.Text;
                 PanelElapsed.Controls.Add(ls);
+                string createText = "Elapsed: " + LabelTimer.Text;
+                File.WriteAllText(path, createText);
+
+                string AppendText = "Elapsed: " + LabelTimer.Text;
+                File.AppendAllText(path, AppendText);
             }
             else
             {
