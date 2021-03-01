@@ -81,7 +81,6 @@ namespace MyFitTimer
             this.PanelElapsed.Name = "PanelElapsed";
             this.PanelElapsed.Size = new System.Drawing.Size(155, 150);
             this.PanelElapsed.TabIndex = 3;
-
             // 
             // MyFitTimer
             // 

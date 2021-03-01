@@ -44,10 +44,6 @@ namespace MyFitTimer
                 Elap ls = new Elap();
                 ls.LabelElapsed.Text = LabelTimer.Text;
                 PanelElapsed.Controls.Add(ls);
-                File.WriteAllText(@"test.txt", String.Format("Elapsed: ", LabelTimer.Text));
-                
-
-
             }
             else
             {
