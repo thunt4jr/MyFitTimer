@@ -51,7 +51,7 @@ namespace MyFitTimer
 
                 using(StreamWriter sw = File.AppendText(path))
                 {
-                    sw.WriteLine("Elapsed {0}:", LabelTimer.Text);
+                    sw.WriteLine("Elapsed - {0}", LabelTimer.Text);
                 }
 
 

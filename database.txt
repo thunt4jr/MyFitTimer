@@ -2,3 +2,87 @@
 Elapsed 00:00:00:77:
 Elapsed 00:00:01:28:
 Elapsed 00:00:01:78:
+Elapsed 00:00:00:50:
+Elapsed 00:00:01:00:
+Elapsed 00:00:01:51:
+Elapsed 00:00:02:20:
+Elapsed 00:00:02:36:
+Elapsed 00:00:02:53:
+Elapsed 00:00:02:70:
+Elapsed 00:00:02:89:
+Elapsed 00:00:03:06:
+Elapsed 00:00:03:25:
+Elapsed 00:00:03:42:
+Elapsed 00:00:03:59:
+Elapsed 00:00:03:76:
+Elapsed 00:00:03:93:
+Elapsed -
+Elapsed -
+Elapsed -
+Elapsed -
+Elapsed -
+Elapsed -
+Elapsed -
+Elapsed -
+Elapsed -
+Elapsed -
+Elapsed -
+Elapsed -
+Elapsed - 00:00:00:41
+Elapsed - 00:00:00:79
+Elapsed - 00:00:00:98
+Elapsed - 00:00:01:16
+Elapsed - 00:00:01:91
+Elapsed - 00:00:02:09
+Elapsed - 00:00:03:85
+Elapsed - 00:00:16:79
+Elapsed - 00:00:17:35
+Elapsed - 00:00:18:66
+Elapsed - 00:00:18:88
+Elapsed - 00:01:01:16
+Elapsed - 00:01:01:62
+Elapsed - 00:01:01:79
+Elapsed - 00:01:01:99
+Elapsed - 00:00:01:01
+Elapsed - 00:00:01:67
+Elapsed - 00:00:02:09
+Elapsed - 00:00:02:31
+Elapsed - 00:00:02:51
+Elapsed - 00:00:02:73
+Elapsed - 00:00:00:43
+Elapsed - 00:00:00:83
+Elapsed - 00:00:01:03
+Elapsed - 00:00:01:25
+Elapsed - 00:00:01:73
+Elapsed - 00:00:02:29
+Elapsed - 00:00:02:50
+Elapsed - 00:00:03:73
+Elapsed - 00:00:03:93
+Elapsed - 00:00:04:14
+Elapsed - 00:00:04:34
+Elapsed - 00:00:04:56
+Elapsed - 00:00:00:53
+Elapsed - 00:00:00:93
+Elapsed - 00:00:01:12
+Elapsed - 00:00:01:31
+Elapsed - 00:00:01:49
+Elapsed - 00:00:02:03
+Elapsed - 00:00:02:22
+Elapsed - 00:00:02:43
+Elapsed - 00:00:02:60
+Elapsed - 00:00:02:81
+Elapsed - 00:00:02:99
+Elapsed - 00:00:03:14
+Elapsed - 00:00:00:46
+Elapsed - 00:00:00:93
+Elapsed - 00:00:01:27
+Elapsed - 00:00:01:46
+Elapsed - 00:00:01:93
+Elapsed - 00:00:02:56
+Elapsed - 00:00:02:74
+Elapsed - 00:00:02:93
+Elapsed - 00:00:03:10
+Elapsed - 00:00:03:30
+Elapsed - 00:00:03:49
+Elapsed - 00:00:03:68
+Elapsed - 00:00:03:85

@@ -82,9 +82,6 @@ namespace MyFitTimer
             this.PanelElapsed.Size = new System.Drawing.Size(155, 150);
             this.PanelElapsed.TabIndex = 3;
             // 
-            // dataSet11
-            // 
-            // 
             // MyFitTimer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
